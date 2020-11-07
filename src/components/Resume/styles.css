@@ -1,0 +1,122 @@
+.resume {
+  background: #f2f2f2;
+  border-radius: 12px;
+}
+
+.resume__article {
+  padding: 7% 5% 0 !important;
+}
+
+.resume__article__image {
+  width: 100%;
+  border-radius: 13px;
+}
+
+.resume__article__text {
+  margin-top: -3%;
+  margin-left: -10% !important;
+}
+
+.resume__article__title {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 0.86em;
+  line-height: 0;
+  color: #4e5150;
+}
+
+.resume__article__price--active {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 17px;
+  color: #f2994a;
+  padding-right: 10%;
+}
+
+.resume__article__price--old {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 0.8em;
+  line-height: 12px;
+  text-decoration-line: line-through;
+  color: #4e5150;
+}
+
+.resume__article__amount {
+  border: 1px solid #828282;
+  box-sizing: border-box;
+  border-radius: 12px;
+  margin-top: 6%;
+  padding: 5% !important;
+  text-align: center;
+}
+
+.resume__article__amount__text {
+  padding: 0 20%;
+  font-family: Montserrat;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.resume__article__amount__button {
+  font-family: Montserrat;
+  font-size: 1.3em;
+  font-weight: 400;
+  border: 1px transparent;
+  color: #828282;
+  background-color: #e0e0e0;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  padding: 0 4%;
+}
+
+.resume__total {
+  margin-top: 10%;
+  padding: 5% 7% !important;
+}
+
+hr {
+  color: #bdbdbd;
+}
+
+.resume__total__price {
+  position: relative;
+  float: right;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 17px;
+}
+.resume__total__title {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 17px;
+}
+
+
+/*Tablet*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+  .resume__article__image {
+    width: 85%;
+  }
+
+}
+
+/*Laptop*/
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+
+}
+
+/*Laptop L*/
+
+@media screen and (min-width: 1440px){
+
+}
+
+
