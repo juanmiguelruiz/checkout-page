@@ -1,6 +1,6 @@
 # Checkout Page (devchallenges.io challenge)
 
-<a href="https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO">Challenge</a> | <a href="https://juanmiguelruizpazos.com/recipe-page">Demo</a>
+<a href="https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO">Challenge</a> | <a href="https://checkout-page.vercel.app/">Demo</a>
 
 Challenge: Create a recipe page following the given design. You can use your own recipe and remember to put the source. The page should be responsive. Don’t look at existing solution. Fulfill user stories below:
 
