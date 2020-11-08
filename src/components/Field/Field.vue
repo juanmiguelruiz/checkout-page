@@ -1,21 +1,17 @@
 <template>
-  <div class="field">
-    <h3>{{ title }}</h3>
-    <div :class="['field__grid', grid]">
+  <div :class="['field__grid field', grid]">
+    <label>{{ label }}</label>
+    <div :style="{ marginTop: 10 + 'px' }">
       <i class="material-icons field__icon">{{ icon }}</i>
-      <input
-        :placeholder="placeholder"
-        class="valdidate field__input"
-      />
+      <input :placeholder="placeholder" class="valdidate field__input" />
     </div>
   </div>
 </template>
 
-<script >
+<script>
 export default {
   name: "Field",
   props: {
-    title: String,
     label: String,
     icon: String,
     grid: String,
@@ -24,4 +20,4 @@ export default {
 };
 </script>
 
-<style src="./styles.css"/>
+<style src="./styles.css" />

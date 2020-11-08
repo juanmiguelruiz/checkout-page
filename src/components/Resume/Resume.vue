@@ -1,5 +1,6 @@
 <template>
-  <div class="row resume">
+<div class="col s12 l6 resume">
+  <div class="row">
     <Article
       id=1
       photo="photo1"
@@ -22,6 +23,7 @@
       <span class="resume__total__title">Total</span>
       <span class="resume__total__price">$148,98</span>
     </div>
+  </div>
   </div>
 </template>
 

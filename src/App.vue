@@ -1,8 +1,13 @@
 <template>
   <div id="app" class="container">
     <h1>Checkout</h1>
-      <Resume/>
-      <Form/>
+    <div class="row">
+      <Resume />
+      <Form />
+    </div>
+     <footer>
+          <p>juanmiguelruiz @ DevChallenges.io</p>
+        </footer>
   </div>
 </template>
 
@@ -27,6 +32,6 @@ h1 {
   font-size: 2em;
   line-height: 29px;
   color: #4e5150;
-  margin-top:10%;
+  margin-top: 10%;
 }
 </style>

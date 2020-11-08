@@ -9,7 +9,7 @@
                   <span class="resume__article__price--active">{{price}}</span>
                     <span class="resume__article__price--old">{{price_old}}</span>
               </div>
-              <div class="col s10 m6 resume__article__amount">
+              <div class="col s10 m6 l7 xl8 resume__article__amount">
                   <button class="resume__article__amount__button" >-</button>
                   <span class="resume__article__amount__text">{{amount}}</span>
                   <button class="resume__article__amount__button">+</button>

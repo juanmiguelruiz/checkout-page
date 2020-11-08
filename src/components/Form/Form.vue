@@ -1,63 +1,68 @@
 <template>
-  <div class="row">
-    <div class="col s12">
-      <Field
-        title="Contact infomation"
-        label="E-mail"
-        placeholder="Enter your email.."
-        icon="email"
-        grid="col s12"
-      />
-      <Field
-        label="Phone"
-        placeholder="Enter your phone.."
-        icon="phone"
-        grid="col s12"
-      />
-    </div>
-    <div class="col s12">
-      <Field
-        title="Shipping address"
-        label="Full name"
-        placeholder="Your name.."
-        icon="person"
-        grid="col s12"
-      />
-      <Field
-        label="Address"
-        placeholder="Your address.."
-        icon="home"
-        grid="col s12"
-      />
-      <Field
-        label="City"
-        placeholder="Your city.."
-        icon="location_city"
-        grid="col s12"
-      />
-      <Field
-        label="Country"
-        placeholder="Country"
-        icon="location_city"
-        grid="col s4 m5 divided"
-      />
-      <Field
-        label="Postal code"
-        placeholder="Postal code"
-        icon="markunread_mailbox"
-        grid="col s4 m5 postal-code divided"
-      />
-    </div>
-    <div class="col s12 form__checkbox">
-      <label>
-        <input type="checkbox" class="filled-in" />
-        <span class="form__checkbox__span">
-          Save this information for next time</span>
-      </label>
-      <button class="form__continue">Continue</button>
-      <footer>
-        <p>juanmiguelruiz @ DevChallenges.io</p>
-      </footer>
+  <div class="col s12 l6 form">
+    <div class="row">
+      <div class="col s12">
+        <h3>Contact information</h3>
+        <Field
+          title="Contact infomation"
+          label="E-mail"
+          placeholder="Enter your email.."
+          icon="email"
+          grid="col s12"
+        />
+        <Field
+          label="Phone"
+          placeholder="Enter your phone.."
+          icon="phone"
+          grid="col s12"
+        />
+      </div>
+      <div class="col s12">
+                <h3>Shipping address</h3>
+
+        <Field
+          title="Shipping address"
+          label="Full name"
+          placeholder="Your name.."
+          icon="person"
+          grid="col s12"
+        />
+        <Field
+          label="Address"
+          placeholder="Your address.."
+          icon="home"
+          grid="col s12"
+        />
+        <Field
+          label="City"
+          placeholder="Your city.."
+          icon="location_city"
+          grid="col s12"
+        />
+        <Field
+          label="Country"
+          placeholder="Country"
+          icon="location_city"
+          grid="col s5 m5 divided"
+        />
+        
+        <Field
+          label="Postal code"
+          placeholder="Postal code"
+          icon="markunread_mailbox"
+          grid="col s5 m5 postal-code divided"
+        />
+      </div>
+      <div class="col s12 form__checkbox">
+        <label>
+          <input type="checkbox" class="filled-in" />
+          <span class="form__checkbox__span">
+            Save this information for next time</span
+          >
+        </label>
+        <button class="form__continue">Continue</button>
+       
+      </div>
     </div>
   </div>
 </template>
@@ -80,17 +85,19 @@ h3 {
   font-size: 14px;
   line-height: 17px;
   color: #333333;
+  margin-left: -5%;
 }
 
 .form__checkbox {
   margin-top: 5%;
+  margin-left: -4% !important;
 }
 
 .form__checkbox__span {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 1.3em !important;
+  font-size: 1.3em ;
   line-height: 15px;
   color: #4f4f4f;
 }
@@ -107,11 +114,18 @@ h3 {
   font-size: 1.2em;
   border-radius: 12px;
   float: right;
+  margin-right: -5%;
+}
+
+.form__continue:focus {
+
+  background-color: #f2994a;
+
 }
 
 footer {
   text-align: center;
-  padding-top: 50%;
+  padding: 10% 0 5%;
   font-family: Montserrat;
   font-weight: 600;
   font-size: 1em;

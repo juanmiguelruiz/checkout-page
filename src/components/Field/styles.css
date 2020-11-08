@@ -15,8 +15,7 @@ h3 {
 .field {
   width: 100%;
   margin-bottom: 10px;
-  margin-left: -4%;
-  margin-right: 5%;
+  margin-left: -4% !important;
 }
 
 .field__icon {
@@ -44,6 +43,14 @@ h3 {
   font-size: 0.8em;
 }
 
+label{
+  font-size: .8rem;
+    color: #4F4F4F;
+    font-family: Montserrat;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
 input:not([type]):focus:not([readonly]),
 input[type="text"]:not(.browser-default):focus:not([readonly]),
 input[type="password"]:not(.browser-default):focus:not([readonly]),
@@ -66,7 +73,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
 }
 
 .postal-code {
-  margin-right: 5.7%;
+  margin-right: 10%;
   float: right !important;
 }
 
@@ -77,7 +84,10 @@ textarea.materialize-textarea:focus:not([readonly]) {
     width: 94% !important;
   }
   .postal-code {
-    margin-right: 3.7%;
+    margin-right: 7%;
+  }
+  .divided {
+    width: 40% !important;
   }
 }
 
@@ -88,37 +98,94 @@ textarea.materialize-textarea:focus:not([readonly]) {
     width: 95% !important;
   }
 
+
   .postal-code {
-    margin-right: 3.7%;
+    margin-right: 7%;
+  }
+  .divided {
+    width: 40% !important;
   }
 }
 
 /*Tablet*/
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .field{
+  .field {
     margin-left: -1%;
   }
 
   .field__input {
-    width: 97% !important;
+    width: 100% !important;
   }
 
   .divided {
     width: 45% !important;
   }
 
-  .postal-code{
-    margin-right: 1.7%;
+  .postal-code {
+    margin-right: 3.8%;
   }
+
+  .form__continue {
+    margin-right: -7% !important;
+  }
+  
 }
 
 /*Laptop*/
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
+
+  h1{
+    margin-left: -1%;
+  }
 }
 
 /*Laptop L*/
 
 @media screen and (min-width: 1440px) {
+  h1{
+    margin-left: -1%;
+  }
+  .form__continue {
+    margin-right: 8%;
+  }
+
+  .field {
+    margin-left: -1%;
+  }
+
+  .field h3 {
+    font-size: 1.2em;
+  }
+
+  .field__input {
+    width: 90% !important;
+    font-size: 1.1em;
+  }
+
+  .field__input::placeholder {
+    font-size: 1.1em;
+  }
+
+  .divided {
+    width: 42% !important;
+  }
+
+  .postal-code {
+    margin-right: 10%;
+  }
+
+
+  .form__continue {
+    margin-right: 2% !important;
+  }
+
+  h3 {
+    font-size: 1.2em !important;
+  }
+
+  .field label{
+    font-size: 1.1em !important;
+  }
 }
