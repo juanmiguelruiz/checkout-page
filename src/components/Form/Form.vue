@@ -39,13 +39,13 @@
         label="Country"
         placeholder="Country"
         icon="location_city"
-        grid="col s4 m5"
+        grid="col s4 m5 divided"
       />
       <Field
         label="Postal code"
         placeholder="Postal code"
         icon="markunread_mailbox"
-        grid="col s4 m5 postal-code"
+        grid="col s4 m5 postal-code divided"
       />
     </div>
     <div class="col s12 form__checkbox">

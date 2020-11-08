@@ -102,7 +102,48 @@ hr {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
   .resume__article__image {
-    width: 85%;
+    width: 75%;
+  }
+  
+  .resume__article__title {
+    font-size: 1.4em;
+  }
+  
+  .resume__article__price--active {
+    font-size: 1.2em;
+  }
+  
+  .resume__article__price--old {
+    font-size: 1em;
+  }
+  
+  .resume__article__amount {   
+    padding: 5% !important;
+    margin-left: -7% !important;
+  }
+  
+  .resume__article__amount__text {
+    padding: 0 10%;
+    font-size: 1.5em;
+  }
+  
+  .resume__article__amount__button {
+    font-size: 2em;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .resume__total {
+    margin-top: 10%;
+    padding: 5% 7% !important;
+  }
+    
+  .resume__total__price {
+    font-size: 1.3em; 
+  }
+
+  .resume__total__title {
+    font-size: 1.2em;
   }
 
 }

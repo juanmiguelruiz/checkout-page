@@ -61,7 +61,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
   box-shadow: 0 0 0 0;
 }
 
-.row .col.s4 {
+.divided {
   width: 38% !important;
 }
 
@@ -96,6 +96,21 @@ textarea.materialize-textarea:focus:not([readonly]) {
 /*Tablet*/
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+  .field{
+    margin-left: -1%;
+  }
+
+  .field__input {
+    width: 97% !important;
+  }
+
+  .divided {
+    width: 45% !important;
+  }
+
+  .postal-code{
+    margin-right: 1.7%;
+  }
 }
 
 /*Laptop*/
