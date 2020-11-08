@@ -25,11 +25,11 @@
     </div>
   </div>
   </div>
+
 </template>
 
 <script>
 import Article from "./Article";
-
 export default {
   name: "Resume",
   components: {
@@ -38,4 +38,3 @@ export default {
 };
 </script>
 
-<style src="./styles.css" />

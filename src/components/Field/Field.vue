@@ -3,7 +3,7 @@
     <label>{{ label }}</label>
     <div :style="{ marginTop: 10 + 'px' }">
       <i class="material-icons field__icon">{{ icon }}</i>
-      <input :placeholder="placeholder" class="valdidate field__input" />
+      <input required :placeholder="placeholder" class="validate field__input" />
     </div>
   </div>
 </template>
@@ -20,4 +20,3 @@ export default {
 };
 </script>
 
-<style src="./styles.css" />

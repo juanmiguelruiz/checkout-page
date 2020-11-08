@@ -1,6 +1,7 @@
 <template>
   <div class="col s12 l6 form">
     <div class="row">
+      <form method="GET">
       <div class="col s12">
         <h3>Contact information</h3>
         <Field
@@ -52,6 +53,7 @@
           icon="markunread_mailbox"
           grid="col s5 m5 postal-code divided"
         />
+        
       </div>
       <div class="col s12 form__checkbox">
         <label>
@@ -63,6 +65,7 @@
         <button class="form__continue">Continue</button>
        
       </div>
+      </form>
     </div>
   </div>
 </template>
@@ -77,64 +80,3 @@ export default {
   },
 };
 </script>
-
-<style>
-h3 {
-  font-family: Montserrat;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 17px;
-  color: #333333;
-  margin-left: -5%;
-}
-
-.form__checkbox {
-  margin-top: 5%;
-  margin-left: -4% !important;
-}
-
-.form__checkbox__span {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 1.3em ;
-  line-height: 15px;
-  color: #4f4f4f;
-}
-
-.form__continue {
-  margin-top: 10%;
-  width: 150px;
-  height: 50px;
-  background-color: #f2994a;
-  border: 1px transparent;
-  color: white;
-  font-family: Montserrat;
-  font-weight: 500;
-  font-size: 1.2em;
-  border-radius: 12px;
-  float: right;
-  margin-right: -5%;
-}
-
-.form__continue:focus {
-
-  background-color: #f2994a;
-
-}
-
-footer {
-  text-align: center;
-  padding: 10% 0 5%;
-  font-family: Montserrat;
-  font-weight: 600;
-  font-size: 1em;
-  line-height: 0px;
-  color: #a9a9a9;
-}
-
-[type="checkbox"].filled-in:checked + span:not(.lever):after {
-  border: 2px solid #f2994a;
-  background-color: #f2994a;
-}
-</style>
